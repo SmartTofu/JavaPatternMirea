@@ -1,0 +1,35 @@
+3457 [restartedMain] INFO  c.example.task_15.Task15Application – Starting Task15Application using Java 20.0.2 on DESKTOP-7IQA4TT with PID 21736 (C:\Users\Kirill\IdeaProjects\task_17\build\classes\java\main started by Kirill in C:\Users\Kirill\IdeaProjects\task_17)
+3468 [restartedMain] INFO  c.example.task_15.Task15Application – No active profile set, falling back to 1 default profile: "default"
+3669 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor – Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+3671 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor – For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+6257 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+6404 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 129 ms. Found 2 JPA repository interfaces.
+11991 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+12013 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+12022 [restartedMain] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+12025 [restartedMain] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.83]
+12323 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+12323 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 8649 ms
+12465 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+13633 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+13662 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration – H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/football'
+14510 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+14733 [restartedMain] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.15.Final
+15472 [restartedMain] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+15944 [restartedMain] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+18273 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18297 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+19165 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19888 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer – LiveReload server is running on port 35729
+19915 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+19980 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+20010 [restartedMain] INFO  c.example.task_15.Task15Application – Started Task15Application in 17.915 seconds (JVM running for 21.032)
+151989 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+152033 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+152340 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 306 ms
+170085 [http-nio-8080-exec-3] INFO  com.example.task_15.Aspect – 2024-05-01 17:12:42
+170577 [http-nio-8080-exec-3] INFO  c.e.t.service.FootballerService – read all footballers
+206837 [http-nio-8080-exec-5] INFO  com.example.task_15.Aspect – 2024-05-01 17:13:19
+206878 [http-nio-8080-exec-5] INFO  c.e.task_15.service.TeamService – read all teams
+301751 [http-nio-8080-exec-6] INFO  com.example.task_15.Aspect – 2024-05-01 17:14:54
+301761 [http-nio-8080-exec-6] INFO  c.e.task_15.service.TeamService – delete team 2
