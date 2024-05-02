@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.task_15.TeamServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-02T13:46:03" hostname="DESKTOP-7IQA4TT" time="4.204">
+  <properties/>
+  <testcase name="testCreate()" classname="com.example.task_15.TeamServiceTest" time="4.204"/>
+  <system-out><![CDATA[16:46:07.313 [Test worker] INFO  c.e.task_15.service.TeamService – create team
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

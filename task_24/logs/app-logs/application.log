@@ -1,0 +1,59 @@
+2835 [restartedMain] INFO  c.example.task_15.Task15Application Ц Starting Task15Application using Java 20.0.2 with PID 18948 (C:\Users\Kirill\IdeaProjects\task_17\build\classes\java\main started by Kirill in C:\Users\Kirill\IdeaProjects\task_17)
+2872 [restartedMain] INFO  c.example.task_15.Task15Application Ц No active profile set, falling back to 1 default profile: "default"
+3157 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor Ц Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+3158 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor Ц For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+5725 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+5888 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate Ц Finished Spring Data repository scanning in 143 ms. Found 3 JPA repository interfaces.
+8260 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat initialized with port 8080 (http)
+8284 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol Ц Initializing ProtocolHandler ["http-nio-8080"]
+8292 [restartedMain] INFO  o.a.catalina.core.StandardService Ц Starting service [Tomcat]
+8293 [restartedMain] INFO  o.a.catalina.core.StandardEngine Ц Starting Servlet engine: [Apache Tomcat/10.1.19]
+8493 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Ц Initializing Spring embedded WebApplicationContext
+8494 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext Ц Root WebApplicationContext: initialization completed in 5334 ms
+9026 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Starting...
+9656 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool Ц HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@777e65a7
+9660 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource Ц HikariPool-1 - Start completed.
+9773 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper Ц HHH000204: Processing PersistenceUnitInfo [name: default]
+10843 [restartedMain] INFO  org.hibernate.Version Ц HHH000412: Hibernate ORM core version 6.4.4.Final
+10975 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator Ц HHH000026: Second-level cache disabled
+12259 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo Ц No LoadTimeWeaver setup: ignoring JPA class transformer
+14796 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator Ц HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+15140 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper Ц SQL Warning Code: 0, SQLState: 00000
+15141 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper Ц ограничение "uk_6dotkott2kjsp8vw4d0m25fb7" в таблице "users" не существует, пропускаетс€
+15174 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper Ц SQL Warning Code: 0, SQLState: 00000
+15175 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper Ц ограничение "uk_3g1j96g94xpk3lpxl2qbl985x" в таблице "users" не существует, пропускаетс€
+15209 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Ц Initialized JPA EntityManagerFactory for persistence unit 'default'
+16704 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration Ц spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17538 [restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain Ц Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@34440c85, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@20af4353, org.springframework.security.web.context.SecurityContextHolderFilter@5be71fa7, org.springframework.security.web.header.HeaderWriterFilter@3d9c3dd0, org.springframework.web.filter.CorsFilter@4c3a19cd, org.springframework.security.web.authentication.logout.LogoutFilter@47e0bfb5, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6e40573c, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@46d55418, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@17b2134c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5d42f3e9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@c5599c7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@386051b, org.springframework.security.web.access.ExceptionTranslationFilter@4c0cc855, org.springframework.security.web.access.intercept.AuthorizationFilter@77cc7668]
+18166 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer Ц LiveReload server is running on port 35729
+18205 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol Ц Starting ProtocolHandler ["http-nio-8080"]
+18265 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer Ц Tomcat started on port 8080 (http) with context path ''
+18300 [restartedMain] INFO  c.example.task_15.Task15Application Ц Started Task15Application in 16.547 seconds (process running for 20.496)
+775  [Test worker] INFO  c.e.t.service.FootballerService Ц create footballer
+885  [Test worker] INFO  c.e.t.service.FootballerService Ц create footballer
+934  [Test worker] INFO  c.e.t.service.FootballerService Ц read all footballers
+1039 [Test worker] INFO  c.e.t.service.FootballerService Ц create footballer
+1046 [Test worker] INFO  c.e.t.service.FootballerService Ц create footballer
+1219 [Test worker] INFO  c.e.t.service.FootballerService Ц delete footballer 1
+1455 [Test worker] INFO  c.e.t.service.FootballerService Ц create footballer
+1456 [Test worker] INFO  c.e.t.service.FootballerService Ц update footballer
+879  [Test worker] INFO  c.e.t.service.FootballerService Ц create footballer
+968  [Test worker] INFO  c.e.t.service.FootballerService Ц create footballer
+991  [Test worker] INFO  c.e.t.service.FootballerService Ц read all footballers
+1179 [Test worker] INFO  c.e.t.service.FootballerService Ц delete footballer 1
+811  [Test worker] INFO  c.e.t.service.FootballerService Ц create footballer
+877  [Test worker] INFO  c.e.t.service.FootballerService Ц create footballer
+896  [Test worker] INFO  c.e.t.service.FootballerService Ц read all footballers
+1004 [Test worker] INFO  c.e.t.service.FootballerService Ц create footballer
+1040 [Test worker] INFO  c.e.t.service.FootballerService Ц delete footballer 1
+939  [Test worker] INFO  c.e.t.service.FootballerService Ц create footballer
+1007 [Test worker] INFO  c.e.t.service.FootballerService Ц create footballer
+1025 [Test worker] INFO  c.e.t.service.FootballerService Ц read all footballers
+1121 [Test worker] INFO  c.e.t.service.FootballerService Ц create footballer
+1146 [Test worker] INFO  c.e.t.service.FootballerService Ц delete footballer 1
+1217 [Test worker] INFO  c.e.t.service.FootballerService Ц update footballer
+1200 [Test worker] INFO  c.e.task_15.service.TeamService Ц read all teams
+1310 [Test worker] INFO  c.e.task_15.service.TeamService Ц create team
+1355 [Test worker] INFO  c.e.task_15.service.TeamService Ц delete team 1
+1419 [Test worker] INFO  c.e.task_15.service.TeamService Ц update team
+678  [Test worker] INFO  c.e.task_15.service.TeamService Ц create team
