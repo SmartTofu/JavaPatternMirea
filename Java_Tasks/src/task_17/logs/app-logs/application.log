@@ -1,0 +1,142 @@
+
+3037 [restartedMain] INFO  c.example.task_15.Task15Application – Starting Task15Application using Java 20.0.2 with PID 18420 (C:\Users\Kirill\IdeaProjects\task_17\build\classes\java\main started by Kirill in C:\Users\Kirill\IdeaProjects\task_17)
+3043 [restartedMain] INFO  c.example.task_15.Task15Application – No active profile set, falling back to 1 default profile: "default"
+3209 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor – Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+3210 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor – For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+5656 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+5813 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 137 ms. Found 3 JPA repository interfaces.
+10489 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port 8080 (http)
+10515 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+10523 [restartedMain] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+10525 [restartedMain] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/10.1.19]
+10781 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+10784 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 7571 ms
+13589 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+15029 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@67fddf92
+15034 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+15155 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+16085 [restartedMain] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 6.4.4.Final
+16451 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator – HHH000026: Second-level cache disabled
+21840 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo – No LoadTimeWeaver setup: ignoring JPA class transformer
+25333 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+25588 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+28747 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+30494 [restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain – Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@57bba708, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@116eb129, org.springframework.security.web.context.SecurityContextHolderFilter@7b4f3443, org.springframework.security.web.header.HeaderWriterFilter@3b8e5e16, org.springframework.web.filter.CorsFilter@20206e4d, org.springframework.security.web.authentication.logout.LogoutFilter@266274a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@56acea7b, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@38e8b3cd, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3f42d2e2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@36efc7fa, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@79af3a22, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@354ba1e5, org.springframework.security.web.access.ExceptionTranslationFilter@1bed6559, org.springframework.security.web.access.intercept.AuthorizationFilter@282dc7d9]
+33289 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer – LiveReload server is running on port 35729
+33377 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+33476 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port 8080 (http) with context path ''
+33541 [restartedMain] INFO  c.example.task_15.Task15Application – Started Task15Application in 31.922 seconds (process running for 34.091)
+83988 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+83988 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+83995 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 6 ms
+84444 [task-1] INFO  com.example.task_15.Aspect – 2024-05-02 18:18:53
+84453 [http-nio-8080-exec-1] INFO  com.example.task_15.Aspect – 2024-05-02 18:18:53
+84453 [http-nio-8080-exec-1] INFO  c.e.t.service.FootballerService – create footballer
+2285 [restartedMain] INFO  c.example.task_15.Task15Application – Starting Task15Application using Java 20.0.2 with PID 16440 (C:\Users\Kirill\IdeaProjects\task_17\build\classes\java\main started by Kirill in C:\Users\Kirill\IdeaProjects\task_17)
+2301 [restartedMain] INFO  c.example.task_15.Task15Application – No active profile set, falling back to 1 default profile: "default"
+2551 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor – Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2552 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor – For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+4980 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+5165 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 156 ms. Found 3 JPA repository interfaces.
+7908 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port 8080 (http)
+7940 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+7947 [restartedMain] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+7948 [restartedMain] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/10.1.19]
+8109 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+8110 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 5557 ms
+8537 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+9315 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@11063a26
+9318 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+9421 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+9691 [restartedMain] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 6.4.4.Final
+9855 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator – HHH000026: Second-level cache disabled
+11052 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo – No LoadTimeWeaver setup: ignoring JPA class transformer
+17046 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+17249 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+18871 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19952 [restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain – Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@116eb129, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@20206e4d, org.springframework.security.web.context.SecurityContextHolderFilter@3278abd2, org.springframework.security.web.header.HeaderWriterFilter@7cdf099e, org.springframework.web.filter.CorsFilter@3f42d2e2, org.springframework.security.web.authentication.logout.LogoutFilter@10b4a974, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@e5235ee, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3b4d2c07, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@354ba1e5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@79af3a22, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7b40f478, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5148b99c, org.springframework.security.web.access.ExceptionTranslationFilter@1e9d29b6, org.springframework.security.web.access.intercept.AuthorizationFilter@56acea7b]
+20696 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer – LiveReload server is running on port 35729
+20843 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+21016 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port 8080 (http) with context path ''
+21078 [restartedMain] INFO  c.example.task_15.Task15Application – Started Task15Application in 19.848 seconds (process running for 21.607)
+21395 [scheduling-1] INFO  com.example.task_15.Aspect – 2024-05-02 18:28:09
+21407 [scheduling-1] INFO  com.example.task_15.Aspect – 2024-05-02 18:28:09
+21408 [scheduling-1] INFO  c.e.t.service.FootballerService – read all footballers
+21670 [scheduling-1] INFO  c.e.t.service.SchedulingService – write footballers
+21671 [scheduling-1] INFO  com.example.task_15.Aspect – 2024-05-02 18:28:09
+21672 [scheduling-1] INFO  c.e.task_15.service.TeamService – read all teams
+21687 [scheduling-1] INFO  c.e.t.service.SchedulingService – write teams footballers
+22364 [scheduling-1] INFO  com.example.task_15.Aspect – 2024-05-02 18:28:10
+22366 [scheduling-1] INFO  com.example.task_15.Aspect – 2024-05-02 18:28:10
+22366 [scheduling-1] INFO  c.e.t.service.FootballerService – read all footballers
+22448 [scheduling-1] INFO  c.e.t.service.SchedulingService – write footballers
+22449 [scheduling-1] INFO  com.example.task_15.Aspect – 2024-05-02 18:28:10
+22449 [scheduling-1] INFO  c.e.task_15.service.TeamService – read all teams
+22476 [scheduling-1] INFO  c.e.t.service.SchedulingService – write teams footballers
+23360 [scheduling-1] INFO  com.example.task_15.Aspect – 2024-05-02 18:28:11
+23362 [scheduling-1] INFO  com.example.task_15.Aspect – 2024-05-02 18:28:11
+23363 [scheduling-1] INFO  c.e.t.service.FootballerService – read all footballers
+23370 [scheduling-1] INFO  c.e.t.service.SchedulingService – write footballers
+23371 [scheduling-1] INFO  com.example.task_15.Aspect – 2024-05-02 18:28:11
+23372 [scheduling-1] INFO  c.e.task_15.service.TeamService – read all teams
+23381 [scheduling-1] INFO  c.e.t.service.SchedulingService – write teams footballers
+24367 [scheduling-1] INFO  com.example.task_15.Aspect – 2024-05-02 18:28:12
+24368 [scheduling-1] INFO  com.example.task_15.Aspect – 2024-05-02 18:28:12
+24369 [scheduling-1] INFO  c.e.t.service.FootballerService – read all footballers
+24379 [scheduling-1] INFO  c.e.t.service.SchedulingService – write footballers
+24380 [scheduling-1] INFO  com.example.task_15.Aspect – 2024-05-02 18:28:12
+24381 [scheduling-1] INFO  c.e.task_15.service.TeamService – read all teams
+24387 [scheduling-1] INFO  c.e.t.service.SchedulingService – write teams footballers
+25361 [scheduling-1] INFO  com.example.task_15.Aspect – 2024-05-02 18:28:13
+25363 [scheduling-1] INFO  com.example.task_15.Aspect – 2024-05-02 18:28:13
+25363 [scheduling-1] INFO  c.e.t.service.FootballerService – read all footballers
+25376 [scheduling-1] INFO  c.e.t.service.SchedulingService – write footballers
+25377 [scheduling-1] INFO  com.example.task_15.Aspect – 2024-05-02 18:28:13
+25377 [scheduling-1] INFO  c.e.task_15.service.TeamService – read all teams
+25385 [scheduling-1] INFO  c.e.t.service.SchedulingService – write teams footballers
+26372 [scheduling-1] INFO  com.example.task_15.Aspect – 2024-05-02 18:28:14
+26377 [scheduling-1] INFO  com.example.task_15.Aspect – 2024-05-02 18:28:14
+26377 [scheduling-1] INFO  c.e.t.service.FootballerService – read all footballers
+26398 [scheduling-1] INFO  c.e.t.service.SchedulingService – write footballers
+26399 [scheduling-1] INFO  com.example.task_15.Aspect – 2024-05-02 18:28:14
+26399 [scheduling-1] INFO  c.e.task_15.service.TeamService – read all teams
+26405 [scheduling-1] INFO  c.e.t.service.SchedulingService – write teams footballers
+27362 [scheduling-1] INFO  com.example.task_15.Aspect – 2024-05-02 18:28:15
+27365 [scheduling-1] INFO  com.example.task_15.Aspect – 2024-05-02 18:28:15
+27365 [scheduling-1] INFO  c.e.t.service.FootballerService – read all footballers
+27380 [scheduling-1] INFO  c.e.t.service.SchedulingService – write footballers
+27381 [scheduling-1] INFO  com.example.task_15.Aspect – 2024-05-02 18:28:15
+27381 [scheduling-1] INFO  c.e.task_15.service.TeamService – read all teams
+27388 [scheduling-1] INFO  c.e.t.service.SchedulingService – write teams footballers
+28370 [scheduling-1] INFO  com.example.task_15.Aspect – 2024-05-02 18:28:16
+28375 [scheduling-1] INFO  com.example.task_15.Aspect – 2024-05-02 18:28:16
+28376 [scheduling-1] INFO  c.e.t.service.FootballerService – read all footballers
+28391 [scheduling-1] INFO  c.e.t.service.SchedulingService – write footballers
+28392 [scheduling-1] INFO  com.example.task_15.Aspect – 2024-05-02 18:28:16
+28393 [scheduling-1] INFO  c.e.task_15.service.TeamService – read all teams
+28399 [scheduling-1] INFO  c.e.t.service.SchedulingService – write teams footballers
+29369 [scheduling-1] INFO  com.example.task_15.Aspect – 2024-05-02 18:28:17
+29372 [scheduling-1] INFO  com.example.task_15.Aspect – 2024-05-02 18:28:17
+29373 [scheduling-1] INFO  c.e.t.service.FootballerService – read all footballers
+29387 [scheduling-1] INFO  c.e.t.service.SchedulingService – write footballers
+29388 [scheduling-1] INFO  com.example.task_15.Aspect – 2024-05-02 18:28:17
+29388 [scheduling-1] INFO  c.e.task_15.service.TeamService – read all teams
+29396 [scheduling-1] INFO  c.e.t.service.SchedulingService – write teams footballers
+30366 [scheduling-1] INFO  com.example.task_15.Aspect – 2024-05-02 18:28:18
+30369 [scheduling-1] INFO  com.example.task_15.Aspect – 2024-05-02 18:28:18
+30370 [scheduling-1] INFO  c.e.t.service.FootballerService – read all footballers
+30379 [scheduling-1] INFO  c.e.t.service.SchedulingService – write footballers
+30380 [scheduling-1] INFO  com.example.task_15.Aspect – 2024-05-02 18:28:18
+30381 [scheduling-1] INFO  c.e.task_15.service.TeamService – read all teams
+30391 [scheduling-1] INFO  c.e.t.service.SchedulingService – write teams footballers
+31362 [scheduling-1] INFO  com.example.task_15.Aspect – 2024-05-02 18:28:19
+31365 [scheduling-1] INFO  com.example.task_15.Aspect – 2024-05-02 18:28:19
+31366 [scheduling-1] INFO  c.e.t.service.FootballerService – read all footballers
+31388 [scheduling-1] INFO  c.e.t.service.SchedulingService – write footballers
+31390 [scheduling-1] INFO  com.example.task_15.Aspect – 2024-05-02 18:28:19
+31390 [scheduling-1] INFO  c.e.task_15.service.TeamService – read all teams
+31413 [scheduling-1] INFO  c.e.t.service.SchedulingService – write teams footballers
+1701 [Test worker] INFO  c.e.task_15.service.TeamService – read all teams
+2054 [Test worker] INFO  c.e.task_15.service.TeamService – create team
+2440 [Test worker] INFO  c.e.task_15.service.TeamService – delete team 1
+2503 [Test worker] INFO  c.e.task_15.service.TeamService – update team

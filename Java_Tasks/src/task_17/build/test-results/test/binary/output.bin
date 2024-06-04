@@ -1,0 +1,4 @@
+U18:44:00.414 [Test worker] INFO  c.e.task_15.service.TeamService – read all teams
+R18:44:00.767 [Test worker] INFO  c.e.task_15.service.TeamService – create team
+T18:44:01.153 [Test worker] INFO  c.e.task_15.service.TeamService – delete team 1
+R18:44:01.216 [Test worker] INFO  c.e.task_15.service.TeamService – update team
